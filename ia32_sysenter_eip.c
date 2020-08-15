@@ -1,4 +1,5 @@
 // sysenter/KiFastCallEntry/IA32_SYSENTER_EIP accrochage driver
+// qunyi (https://twitter.com/0x71756e7969)
 
 #include <wdm.h>
 #include <intrin.h>
