@@ -1,5 +1,5 @@
 # IA32_SYSENTER_EIP
-J'ai développé ces directives après avoir été confronté à cette situation.<br/><br/>
+J'ai développé ces directives après avoir été confronté à cette situation. Tiré d'un TDT en français.<br/><br/>
 <img src="https://media.discordapp.net/attachments/726930813505110029/744200647280296006/MwkS1.png"/><br/><br/>
 C'est tout simplement rdmsr 176 dans Windbg en mode Kernel Debugging sur la machine locale.<br/><br/>
 Cependant, le démontage de la fonction à 82c3fsd0 donne nt! ZwYieldExecution + 0aa30 plutôt que nt! KiFastCallEntry.<br/><br/>
