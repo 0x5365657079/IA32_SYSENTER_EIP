@@ -143,7 +143,7 @@ DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath)
 
 	KeRevertToUserAffinityThread();
 
-	// Enable l'accrochage / hook
+	// Activez l'accrochage / hook
 
 	KeSetEvent(&EnterKiFastCallEntryHookEvent, 0, FALSE);
 
